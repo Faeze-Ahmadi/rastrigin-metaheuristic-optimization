@@ -12,6 +12,16 @@ The project includes:
 
 ---
 
+## Simulated Annealing Result (2D Rastrigin)
+
+![SA Path on Rastrigin](visualizations/simulated_annealing_path.png)
+
+*Figure: Simulated Annealing path on the Rastrigin function.
+The irregular trajectory demonstrates the ability of the metaheuristic
+to escape local minima and converge near the global optimum.*
+
+---
+
 ## Problem Statement
 
 The **Rastrigin function** is a standard benchmark for optimization:
