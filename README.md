@@ -1,4 +1,3 @@
-````md
 # Rastrigin Metaheuristic Optimization (Hill Climbing, Random Restart, Simulated Annealing)
 
 A compact, reproducible university project that minimizes the **2D Rastrigin function** using:
@@ -27,7 +26,7 @@ This project demonstrates why simple heuristics get trapped and how metaheuristi
 
 ## Repository Structure
 
-```text
+```
 rastrigin-metaheuristic-optimization/
 ├─ src/
 │  ├─ rastrigin.py               # Rastrigin function + 2D landscape plot
@@ -48,7 +47,7 @@ rastrigin-metaheuristic-optimization/
 ├─ README.md
 ├─ requirements.txt
 └─ LICENSE
-````
+```
 
 ---
 
