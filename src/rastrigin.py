@@ -2,10 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def rastrigin(x):
-    """
-    Rastrigin function
-    x: numpy array of shape (n,)
-    """
     n = len(x)
     return 10 * n + np.sum(x**2 - 10 * np.cos(2 * np.pi * x))
 
@@ -28,7 +24,3 @@ def plot_rastrigin_2d():
     plt.xlabel("x")
     plt.ylabel("y")
     plt.legend()
-
-
-if __name__ == "__main__":
-    plot_rastrigin_2d()
