@@ -57,20 +57,28 @@ This project demonstrates why simple heuristics get trapped and how metaheuristi
 ```
 rastrigin-metaheuristic-optimization/
 ├─ src/
-│  ├─ rastrigin.py               # Rastrigin function + 2D landscape plot
-│  ├─ hill_climbing.py           # Hill Climbing + Random Restart + main runner
-│  ├─ simulated_annealing.py     # Simulated Annealing + SA with restarts
-│  └─ utils.py                   # Shared utilities (bounds, clamp, stats runner)
+│ ├─ rastrigin.py # Rastrigin function + 2D landscape plot
+│ ├─ hill_climbing.py # Hill Climbing + Random Restart
+│ ├─ simulated_annealing.py # Simulated Annealing + SA with restarts
+│ ├─ pso.py # Particle Swarm Optimization (PSO)
+│ │
+│ ├─ animate_sa_light.py # Low-memory SA convergence GIF (recommended)
+│ ├─ animate_sa_heavy.py # High-quality SA animation (MP4 / heavy)
+│ ├─ animate_pso_light.py # Low-memory PSO convergence GIF
+│ │
+│ └─ utils.py # Shared utilities (bounds, clamp, stats runner)
 │
 ├─ visualizations/
-│  └─ simulated_annealing_path.png   # Final saved figure (SA path on landscape)
+│ ├─ simulated_annealing_path.png # Final SA path on Rastrigin landscape
+│ ├─ sa_convergence.gif # Simulated Annealing convergence animation
+│ └─ pso_convergence.gif # PSO convergence animation
 │
 ├─ results/
-│  └─ sa_best.txt                    # Saved best objective value (SA best)
+│ └─ sa_best.txt # Saved best objective value (SA)
 │
 ├─ report/
-│  ├─ report.md                      # Short academic report
-│  └─ .gitkeep                       # Keeps folder tracked in Git
+│ ├─ report.md # Short academic-style report
+│ └─ .gitkeep # Keeps folder tracked in Git
 │
 ├─ README.md
 ├─ requirements.txt
