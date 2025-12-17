@@ -1,9 +1,10 @@
-# Rastrigin Metaheuristic Optimization (Hill Climbing, Random Restart, Simulated Annealing)
+# Rastrigin Metaheuristic Optimization (Hill Climbing, Random Restart, Simulated Annealing, Particle Swarm Optimization)
 
 A compact, reproducible university project that minimizes the **2D Rastrigin function** using:
 - **Hill Climbing** (local, greedy heuristic)
 - **Random Restart Hill Climbing** (multiple initializations to reduce local-trap sensitivity)
 - **Simulated Annealing** (metaheuristic with controlled exploration)
+- **Particle Swarm Optimization** (a powerful meta-heuristic optimization algorithm)
 
 The project includes:
 - Clear **visualization** of the optimization path on the Rastrigin landscape
