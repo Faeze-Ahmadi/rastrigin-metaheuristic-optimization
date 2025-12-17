@@ -22,9 +22,13 @@ to escape local minima and converge near the global optimum.*
 
 ---
 
-## Simulated Annealing Convergence
+## Optimization Algorithms
 
-![SA Convergence](visualizations/sa_convergence.gif)
+### Simulated Annealing
+![SA](visualizations/sa_convergence.gif)
+
+### Particle Swarm Optimization
+![PSO](visualizations/pso_convergence.gif)
 
 ---
 
