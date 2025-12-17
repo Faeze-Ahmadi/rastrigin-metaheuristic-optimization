@@ -22,6 +22,12 @@ to escape local minima and converge near the global optimum.*
 
 ---
 
+## Simulated Annealing Convergence
+
+![SA Convergence](visualizations/sa_convergence.gif)
+
+---
+
 ## Problem Statement
 
 The **Rastrigin function** is a standard benchmark for optimization:
